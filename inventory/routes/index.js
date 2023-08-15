@@ -9,4 +9,7 @@ router.get('/', function(req, res, next) {
 router.get("/items",function(req,res,next){
 res.send("not implemented")
 })
+router.get("/inventory",function(req,res,next){
+res.send("not implemented")
+})
 module.exports = router;
