@@ -6,4 +6,7 @@ router.get('/', function(req, res, next) {
   res.render('index', { title: 'Express' });
 });
 
+router.get("/items",function(req,res,next){
+res.send("not implemented")
+})
 module.exports = router;
