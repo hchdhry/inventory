@@ -11,4 +11,4 @@ const itemSchema = new Schema({
   URL: { type: String },
 });
 
-module.exports = mongoose.model("Item", itemSchema);
+module.exports = mongoose.model("item", itemSchema);
